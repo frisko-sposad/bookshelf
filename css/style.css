@@ -22,6 +22,12 @@ body {
   padding: 0 20px 0 20px;
 }
 
+.h2 {
+  font-size: 1.5rem;
+  margin: 0;
+  padding: 0 20px 0 20px;
+}
+
 .book {
   display: flex;
   justify-content: space-between;
@@ -38,6 +44,7 @@ body {
 }
 
 .book__text {
+  font-size: 1.3rem;
   padding: 10px 0 0 0;
 }
 
@@ -47,10 +54,11 @@ body {
   justify-content: center;
 }
 
-.book__info-container {
-  font-size: 1.3rem;
+.book__info-container {  
   padding: 10px;
 }
+
+
 
 .btn {
   font-family: Yanone Kaffeesatz, Helvetica, sans-serif;
@@ -74,6 +82,12 @@ body {
 .book__btn-remove{
   background-color: lightcoral;
 }
-.header__btn {
+.btn-add-book {
   background-color: skyblue;
+}
+
+.form__btn-container, .subtitle-container {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
 }
