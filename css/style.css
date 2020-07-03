@@ -29,6 +29,13 @@ body {
   padding: 0 20px 0 20px;
 }
 
+.error {
+  font-size: 1.5rem;
+  margin: 0;
+  padding: 8px;
+  color: red;
+}
+
 .book {
   display: flex;
   justify-content: space-between;
@@ -60,8 +67,6 @@ body {
   padding: 10px;
 }
 
-
-
 .btn {
   font-family: Yanone Kaffeesatz, Helvetica, sans-serif;
   font-size: 1.2rem;
@@ -81,7 +86,7 @@ body {
   background-color: lightgreen;
 }
 
-.book__btn-remove{
+.book__btn-remove, .btn-cancel {
   background-color: lightcoral;
 }
 .btn-add-book, .btn-edit-book {
